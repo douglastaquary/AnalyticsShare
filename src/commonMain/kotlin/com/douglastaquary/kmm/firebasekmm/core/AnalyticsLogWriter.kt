@@ -5,7 +5,7 @@ import co.touchlab.kermit.ExperimentalKermitApi
 import co.touchlab.kermit.LogWriter
 import co.touchlab.kermit.Severity
 
-interface KotlinAnlytics {
+interface KotlinAnalytics {
     fun logEvent(name: String, parameters: Map<String, Any>)
 }
 
@@ -14,4 +14,4 @@ interface KotlinAnlytics {
 expect class AnalyticsLogWriter(
     minSeverity: Severity = Severity.Info,
     minCrashSeverity: Severity = Severity.Warn
-) : KotlinAnlytics
+) : KotlinAnalytics

@@ -12,7 +12,7 @@ import com.google.firebase.ktx.Firebase
 class AnalyticsLogWriter actual constructor(
     private val minSeverity: Severity,
     private val minCrashSeverity: Severity,
-) : KotlinAnlytics {
+) : KotlinAnalytics {
     private val analytics: FirebaseAnalytics
         get() = Firebase.analytics
 
