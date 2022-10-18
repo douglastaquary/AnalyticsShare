@@ -1,0 +1,3 @@
+package = com.douglastaquary.kmm.firebasekmm
+language = Objective-C
+headers = FIRAnalytics.h FIREventNames.h FIRParameterNames.h FIRUserPropertyNames.h

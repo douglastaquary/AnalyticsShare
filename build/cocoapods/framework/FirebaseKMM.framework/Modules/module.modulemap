@@ -1,0 +1,6 @@
+framework module FirebaseKMM {
+  umbrella header "placeholder.h"
+
+  export *
+  module * { export * }
+}
